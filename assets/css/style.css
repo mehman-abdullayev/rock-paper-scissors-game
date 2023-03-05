@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body { text-align: center; font-family: 'Roboto', sans-serif; }
+
+#heading { width: 100%; background-color: #43bf64; padding: 20px; }
+
+.box { border: 1px solid black; margin: 10px; height: 150px; }
+
+@media screen and (max-width : 1024px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .column {
+        width: 100%;
+    }
+}

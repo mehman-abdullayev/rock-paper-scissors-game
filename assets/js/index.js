@@ -21,4 +21,6 @@ function addPlayer(e) {
 		userName: 'mehman',
 		phone: '0508619691'
 	});
+	
+	console.log('data sent');
 }

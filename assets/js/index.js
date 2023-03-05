@@ -15,8 +15,8 @@ const app = initializeApp(firebaseConfig), db = getDatabase(app);
 
 document.getElementById('form').addEventListener('submit', addPlayer());
 
-function addPlayer(e) {
-	e.preventDefault();
+function addPlayer(event) {
+	event.preventDefault();
 	set(ref(db, '/' + 'user'), {
 		userName: 'mehman',
 		phone: '0508619691'

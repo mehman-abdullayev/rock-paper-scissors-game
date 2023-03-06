@@ -186,6 +186,8 @@ function reset1() {
 				playerId: 0
 			});
 		}
+		
+		set(ref(db, '/message'), '');
 	});
 	
 	return "Do you want to leave the game?";
